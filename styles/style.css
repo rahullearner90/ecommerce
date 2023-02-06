@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Red Rose', cursive;
+    margin:10px 40px 0;
+}
+/* --------header---section----------- */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content:center;
+    justify-items: center;
+}
+
+.section-first a img{
+    background-color: black;
+}
+.section-first{
+    display:inline-flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.lists li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color:black;
+}
+.section-last button{
+    background-color: #388ce6;
+    padding: 10px 36px; 
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    border:none;
+}
+
+/* --------header--section----end */
+
+
+
+
+/* ----------main hero section start--------- */
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+.hero-right img{
+    height: 450px;
+    width:500px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    row-gap: 40px;
+}
+.hero-left h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 50px;
+}
+.hero-left button{
+    padding: 10px 40px;
+    width:250px;
+    border: none;
+    border-radius: 12px;
+    background-color: #388ce6;
+    font-weight:600;
+    font-size: 18px;
+}
